@@ -47,8 +47,6 @@
         private static int ExitWithResult(string result)
         {
             Console.WriteLine(result);
-            Console.WriteLine("Press any key to close . . .");
-            Console.ReadKey();
             return 1;
         }
     }
